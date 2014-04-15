@@ -10,7 +10,17 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle; \
       https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 
 echo "installing solarized color scheme"
-$ git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle
+
+echo relative numbering plugin
+git clone https://github.com/myusuf3/numbers.vim.git ~/.vim/bundle/numbers
+
+echo "installing powerline"
+git clone https://github.com/Lokaltog/powerline.git ~/.vim/bundle/powerline
+
 
 echo "Installing the Silver Seracher - Ag"
 brew install the_silver_searcher
+
+cp .vimrc ~/.vimrc
+

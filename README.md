@@ -18,4 +18,5 @@ you'll new brew package manager install to install Ag
 - CtrlP search
 - NerdTree 
 - Solarized Colour Scheme
-
+- Numbers
+- Powerbar
